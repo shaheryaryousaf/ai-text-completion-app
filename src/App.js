@@ -21,7 +21,7 @@ const App = () => {
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer ${API_KEY}`,
         },
       }
     );
